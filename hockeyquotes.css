@@ -1,0 +1,107 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+  background: #b5b5b7;
+}
+h1 {
+  color: #252839;
+  text-shadow: 2px 2px 2px #677077;
+  font-size: 35px;
+  margin: .5em;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  margin: 1em auto;
+  width: 80%;
+}
+h3 {
+  font-size: 25px;
+  margin: auto;
+  width: 80%;
+}
+#quote-box {
+  max-width: 1000px;
+  margin: auto;
+}
+#box-container{
+  background-color: #252839;
+  border-radius: 50px;
+  text-align: left;
+  padding: 1em;
+  margin: 2em;
+  color: #f2b632;
+  height: 500px;
+  position: relative;
+}
+#buttons {
+  display: flex;
+  width: 80%;  
+  align-content: space-between;
+  bottom: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#new-quote {
+  background: #f2b632;
+  color: #252839;
+  border: 2px solid #677077;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#new-quote:hover {
+  background: #677077;
+  color: #f2b632;
+  border: 2px solid #f2b632
+}
+#tweet {
+  width: 100%;
+  text-align: right;
+  
+}
+#new-quote, #tweet {
+  font-size: 30px;
+  margin: 2em auto;
+}
+#tweet-quote {
+  background-color: #f2b632;
+  color: #252839;
+  font-size: 45px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #677077;
+}
+#tweet-quote:hover{
+  background-color: #677077;
+  text-decoration: none;
+  color: #f2b632;
+  border: 2px solid #f2b632;
+}
+#hero {
+  background-image: url("https://images.unsplash.com/photo-1484070062320-c03d0bac24fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1056&q=80");
+  background-size: cover;
+  background-position: bottom right;
+  margin: 2em;
+  border-radius: 50px;
+  background-size: 100%;
+  height: 200px;
+}
+@media screen and (min-width: 792px) {
+  h1 {
+    font-size: 45px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  #box-container{
+    height: 500px;
+  }
+}
